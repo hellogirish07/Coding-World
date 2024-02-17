@@ -23,6 +23,21 @@ body {
     cursor: url('Cursor-removebg-preview.png'), auto;
 }
 
+::-webkit-scrollbar {
+    /* height: 100vh; */
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    width: 5px;
+    background-color: var(--bg-2);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
 hr {
     border-color: var(--primary-color);
 }
