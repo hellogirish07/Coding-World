@@ -128,8 +128,10 @@ body.open .menu {
 }
 
 .menu>a:hover {
-    color: var(--primary-color);
-    border-bottom:  3px solid var(--primary-color);
+     color: var(--primary-color);
+    /* border-bottom:  3px solid var(--primary-color); */
+    transform: scale(1.5);
+    /* text-decoration: dotted; */
 }
 
 body.open .menu>a {
