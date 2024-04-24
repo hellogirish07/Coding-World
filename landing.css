@@ -8,7 +8,6 @@
 }
 
 * {
-    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -17,10 +16,17 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
+    /* font-family: Quintessential; */
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--BG-color);
+    /* background-color: var(--BG-color); */
+    background-image: url('/pics/BG1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     cursor: url('Cursor-removebg-preview.png'), auto;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 }
 
 ::-webkit-scrollbar {
@@ -52,11 +58,13 @@ hr {
     color: var(--primary-color);
     font-size: 40px;
     font-style: italic;
+    font-family: Quintessential;
     text-transform: uppercase;
 }
 
 .logo h1 {
     font-size: 35px;
+    font-family: Quintessential;
     color: var(--primary-color);
 }
 
@@ -95,6 +103,7 @@ hr {
 
 .header-area .logo h1 {
     font-size: 30px;
+    font-family: Quintessential;
 }
 
 .header-area .logo img {
@@ -143,6 +152,8 @@ hr {
     color: var(--secondry-color);
     /* color: var(--hover); */
 }
+
+
 
 button {
     border: 0;
@@ -195,6 +206,7 @@ button a {
 .container .image img {
     /* margin-top: 100px; */
     max-width: 120%;
+    border-radius: 50%;
 }
 
 .container .info {
@@ -211,9 +223,11 @@ button a {
 .container .info h1 {
     /* float: left; */
     width: 100%;
+    font-family: Quintessential;
     /* border: 2px solid white; */
     text-transform: uppercase;
-    font-size: 44px;
+    font-size: 70px;
+    font-weight: bold;
     margin: 0 0 20px;
     line-height: 1.4;
     color: var(--text);
@@ -282,7 +296,7 @@ button a {
 }
 
 .Contact {
-    height: 100vh;
+    height: 90vh;
 }
 
 .Contact-box {
@@ -305,7 +319,7 @@ button a {
 .Contact-box img {
     width: 380px;
     height: 380px;
-    border-radius: 10%;
+    border-radius: 50%;
     /* border: 2px solid white; */
 }
 
@@ -406,7 +420,7 @@ input:focus {
 }
 
 .ftr img {
-    /* border-radius: 50%; */
+    border-radius: 50%;
     /* border: 2px solid white; */
     margin: 20px;
     height: 70px;
@@ -419,6 +433,7 @@ h1 {
 }
 
 .ftr h1 {
+    font-family: Quintessential;
     text-transform: uppercase;
 }
 
